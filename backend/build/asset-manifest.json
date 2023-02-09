@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.05fcae1c.css",
+    "main.js": "/static/js/main.80b8fb43.js",
+    "static/js/232.ec63992c.chunk.js": "/static/js/232.ec63992c.chunk.js",
+    "static/media/bill.png": "/static/media/bill.d655fec49e1615fab8cf.png",
+    "static/media/ftx.png": "/static/media/ftx.5ede2b96096a0ba0aa62.png",
+    "static/media/wave.png": "/static/media/wave.fa76693d86806113bb54.png",
+    "static/media/glasses.png": "/static/media/glasses.c9cc22f25386f44b427f.png",
+    "static/media/Crypto.png": "/static/media/Crypto.320392128e5bee4f897a.png",
+    "static/media/google.svg": "/static/media/google.b596752253d8523d78d4a2691564e4b4.svg",
+    "static/media/Binance_logo.webp": "/static/media/Binance_logo.bde7a3fd190a2672915c.webp",
+    "static/media/apple.svg": "/static/media/apple.e3713dc89ad84e690ab38eae55922d3e.svg",
+    "static/media/longCall.svg": "/static/media/longCall.eefbafc10606fa3944e435c1a607f34c.svg",
+    "static/media/shortPut.svg": "/static/media/shortPut.648ad9ca2e4f115e8010e6d4a7d16db7.svg",
+    "static/media/longPut.svg": "/static/media/longPut.109c9c7849148489721f814d6447eb64.svg",
+    "static/media/shortCall.svg": "/static/media/shortCall.a9ecd84c239f2473d22eeb07c6d21310.svg",
+    "static/media/deribit_logo.png": "/static/media/deribit_logo.b0f5ed86beabb6f910db.png",
+    "static/media/results.png": "/static/media/results.812fbfc0bb03f96fc043.png",
+    "index.html": "/index.html",
+    "main.05fcae1c.css.map": "/static/css/main.05fcae1c.css.map",
+    "main.80b8fb43.js.map": "/static/js/main.80b8fb43.js.map",
+    "232.ec63992c.chunk.js.map": "/static/js/232.ec63992c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.05fcae1c.css",
+    "static/js/main.80b8fb43.js"
+  ]
+}
