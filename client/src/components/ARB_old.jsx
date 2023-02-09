@@ -205,7 +205,7 @@ const ARB = () => {
         },
       };
       const host = window.location.host;
-      const url = `http://${host}`;
+      const url = `https://crypto-muzw.onrender.com`;
       axios
         .post(`${url}/get_index`, {
           headers: {

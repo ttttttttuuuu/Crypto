@@ -18,8 +18,8 @@ const useFetchARB = ({ symbol, date, exchange }) => {
 
   // 等待動畫
   const [isLoading, setIsLoading] = useState(false);
-  const host = window.location.host;
-  const url = `http://${host}`;
+
+  const url = "https://crypto-muzw.onrender.com";
   useEffect(() => {
     const CancelToken = axios.CancelToken;
     let cancel = () => {};

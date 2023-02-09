@@ -28,7 +28,7 @@ const Login = () => {
   //   setRegister(!re);
   // };
   const host = window.location.host;
-  const url = `http://${host}`;
+  const url = `https://crypto-muzw.onrender.com`;
   //const url = `http://localhost:5001`;
   const handleLoginClick = () => {
     if (email && password !== "") {

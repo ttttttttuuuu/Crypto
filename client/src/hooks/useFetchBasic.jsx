@@ -12,7 +12,7 @@ const useFetchBasic = ({ send }) => {
     const CancelToken = axios.CancelToken;
     let cancel = () => {};
     const host = window.location.host;
-    const url = `http://${host}`;
+    const url = "https://crypto-muzw.onrender.com";
     //const url = `http://localhost:5001`;
     async function fetchData() {
       //  await

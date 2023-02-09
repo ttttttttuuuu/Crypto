@@ -92,7 +92,7 @@ const ARB = () => {
   }, []);
 
   const host = window.location.host;
-  const url = `http://${host}`;
+  const url = `https://crypto-muzw.onrender.com`;
   //const url = `http://localhost:5001`;
   const token = localStorage.getItem("token") ?? "N";
   useEffect(() => {

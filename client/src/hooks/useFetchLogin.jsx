@@ -5,7 +5,7 @@ import { Navigate } from "react-router-dom";
 const useFetchLogin = () => {
   const [redirect, setRedirect] = useState(null);
   const host = window.location.host;
-  const url = `http://${host}/`;
+  const url = `https://crypto-muzw.onrender.com`;
   //const url = `http://localhost:5001`;
   useEffect(() => {
     // console.log("GET_token:", localStorage.getItem("token"));

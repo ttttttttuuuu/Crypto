@@ -79,7 +79,7 @@ const Register = () => {
     setRegister(!re);
   };
   const host = window.location.host;
-  const url = `http://${host}`;
+  const url = `https://crypto-muzw.onrender.com`;
 
   const handleButtonSendCode = () => {
     if (email && username !== "") {
