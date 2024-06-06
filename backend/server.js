@@ -410,16 +410,16 @@ app.listen(process.env.PORT || 5001, (err) => {
   } else console.log(err);
 });
 
-// const httpsServer = https.createServer(
-//   {
-//     key: fs.readFileSync("croxpow.key"),
-//     cert: fs.readFileSync("croxpow.crt"),
-//   },
-//   app
-// );
+const httpsServer = https.createServer(
+  {
+    key: fs.readFileSync("croxpow.key"),
+    cert: fs.readFileSync("croxpow.crt"),
+  },
+  app
+);
 
-// httpsServer.listen(8443, (err) => {
-//   if (!err) {
-//     console.log("https server running !!");
-//   } else console.log(err);
-// });
+httpsServer.listen(8443, (err) => {
+  if (!err) {
+    console.log("https server running !!");
+  } else console.log(err);
+});
