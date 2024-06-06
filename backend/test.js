@@ -20,5 +20,4 @@ router.patch("/:id", (req, res) => {
   if (password) {
     user.password = password;
   }
-
 });

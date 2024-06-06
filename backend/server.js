@@ -1,5 +1,7 @@
 const express = require("express");
 const path = require("path");
+const fs = require("fs");
+const https = require("https");
 var validator = require("validator");
 var cors = require("cors");
 const axios = require("axios");
@@ -407,3 +409,17 @@ app.listen(process.env.PORT || 5001, (err) => {
     // console.log("请求github真实数据请访问：http://localhost:5001");
   } else console.log(err);
 });
+
+// const httpsServer = https.createServer(
+//   {
+//     key: fs.readFileSync("croxpow.key"),
+//     cert: fs.readFileSync("croxpow.crt"),
+//   },
+//   app
+// );
+
+// httpsServer.listen(8443, (err) => {
+//   if (!err) {
+//     console.log("https server running !!");
+//   } else console.log(err);
+// });
